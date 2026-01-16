@@ -110,12 +110,14 @@ class Matrix:
     def __init__(self, data):
         """ assumes your matrix is consistent"""
         self._mat = data
-        self.dims = (len(data), len(data[0]))
+        
+        self.dims = (len(data), len(data[0])) if data else (0,0)
 
     @property
     def T(self):
         """The T property."""
         return self.transpose()
+
 
     def __mul__(self, matrix2):
         """
