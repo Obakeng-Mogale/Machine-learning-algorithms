@@ -3,7 +3,7 @@
 A visual representation of various ML algorithms built with Python and Pygame.
 
 ## Algorithms Implemented
-* **Linear Regression:** A visualizer that calculates the line of best fit ($y = mx + b$) based on user-placed points.
+* **Linear Regression:** A visualizer that calculates the line of best fit (`y = mx + b`) based on user-placed points.
 
 ## Getting Started
 
