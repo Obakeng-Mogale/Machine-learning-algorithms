@@ -7,6 +7,6 @@
 <h3>Linear regression</h3>
 <p>Ensure you have pygame installed</p>
 <p>in the terminal run: </p>
-'''
+```
 python Visualizer.py
-'''
+```
