@@ -2,5 +2,8 @@
 <h2>Implemeted thus far:</h2>
 <br>
 <ul>
-  <li>nothing</li>
+  <li>Linear regression</li>
 </ul>
+<h3>Linear regression</h3>
+<p>Ensure you have pygame installed</p>
+<p>in the terminal run: <code>python Visualizer.py</code></p>
