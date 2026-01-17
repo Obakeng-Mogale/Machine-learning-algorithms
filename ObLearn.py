@@ -10,7 +10,12 @@ class LinearRegression:
         for now this just does simple LinearRegression
         """
         """ y = (xtx)-1 *xty"""
+        if len(y) < 2:
+            print("too little data points")
+            return None
         self.beta = self.solve_least_squares(self.construct_design(X),y) 
+        return self.beta
+
     def predict(self, X, y):
         pass
 
@@ -35,7 +40,7 @@ class LinearRegression:
         Returns: (Matrix Q, Matrix R)
         """
         rows, cols = matrix.dims
-        #create deep copy of sols 
+       #create deep copy of sols 
         V = [[matrix._mat[r][c] for r in range(rows)] for c in range(cols)]
     
         Q_cols = [[0.0] * rows for _ in range(cols)]
